@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*.ipynb_checkpoints
+session_name*
+.env
+*.xlsx
+config.json
