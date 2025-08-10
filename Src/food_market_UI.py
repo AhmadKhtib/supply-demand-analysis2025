@@ -80,7 +80,7 @@ elif chart_type == "Difference Between Demand and Supply":
         except Exception as e:
             st.error(f"❌ Unexpected error: {e}")
 
-elif chart_type == "Total Food Percentages (Pie Chart)":
+elif chart_type == "Total Food Percentages":
     if st.button("Generate Chart"):
         try:
             viz.plot_total_food_percentages("Data/DailyDemand.csv", start_date=start_date, end_date=end_date)
@@ -96,7 +96,7 @@ elif chart_type == "Total Food Percentages (Pie Chart)":
         except Exception as e:
             st.error(f"❌ Unexpected error: {e}")
 
-elif chart_type == "Correlation Matrix":
+elif chart_type == "Correlation Plot":
     data_type = st.radio("Select Data Source", ["demand", "supply"], horizontal=True)
     if st.button("Generate Chart"):
         try:
