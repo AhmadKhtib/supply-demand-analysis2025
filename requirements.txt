@@ -3,3 +3,4 @@ pandas
 matplotlib
 arabic-reshaper
 python-bidi
+seaborn
