@@ -33,7 +33,7 @@ The system uses:
 │   ├── SellersPosts.py          # Extracts supply posts, filters for food, saves to DailySellers.csv
 │   ├── Daily_Data_percntage.py  # Converts raw counts to daily percentage values
 │   ├── visualizer.py            # Generates all plots (line, bar, pie, correlation)
-│   ├── food_market_streamlit.py # Streamlit dashboard for interactive analysis
+│   ├── food_market_UI.py # Streamlit dashboard for interactive analysis
 │
 ├── visualizations/              # Auto-generated plots
 ├── requirements.txt             # Python dependencies
