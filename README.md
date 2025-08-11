@@ -122,7 +122,7 @@ This project turns raw Telegram posts into clean, visual, month‑by‑month ins
 ## Installation :
 ```
 # Clone the repository
-git clone https://github.com/<your-username>/supply-demand-analysis2025.git
+git clone https://github.com/AhmadKhtib/supply-demand-analysis2025.git
 
 # Navigate into the folder
 cd supply-demand-analysis2025
@@ -133,7 +133,7 @@ pip install -r requirements.txt
 ```
 
 ## How to run the Dashboard :
-    streamlit run Src/food_market_streamlit.py
+    streamlit run Src/food_market_UI.py
 
 ##  Developer :
 ### Ahmed I. Alkhateeb – Data Science & AI Engineer
