@@ -45,7 +45,7 @@ else:
     end_date = start_date
 
 if chart_type != "Correlation Matrix" and chart_type != "Total Food Percentages (Pie Chart)":
-    column = st.selectbox("Select Food Item", demand_df.columns[1:])
+    column = st.selectbox("Select Food Item", demand_df.columns[1:7])
 
 # Chart actions
 if chart_type == "Daily Demand vs Supply":
